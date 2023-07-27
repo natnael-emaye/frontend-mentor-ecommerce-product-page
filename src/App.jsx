@@ -1,16 +1,10 @@
-import { useState } from "react";
+import Header from "./components/Header";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div className="bg-slate-950 w-full h-screen flex items-center justify-center " >
-        <h1 className="text-3xl font-bold text-white ">
-          Vite + React + Tailwind starter
-        </h1>
-      </div>
-    </>
+    <div className="max-w-[1440px] mx-auto px-14 ">
+      <Header />
+    </div>
   );
 }
 
