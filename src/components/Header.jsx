@@ -13,7 +13,7 @@ export default function Header() {
           <img src={Logo} />
         </div>
         {/* navigation's */}
-        <div className="pl-20 flex flex-1 items-center space-x-10 ">
+        <div className="pl-20 flex flex-1 items-center space-x-5  ">
           {NavBarTitles.map((items, index) => (
             <NavBar key={index} title={items} />
           ))}
