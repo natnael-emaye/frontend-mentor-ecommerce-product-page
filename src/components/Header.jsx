@@ -6,7 +6,7 @@ import NavBar from "./NavBar";
 export default function Header() {
   const NavBarTitles = ["Collections", "Men", "Women", "About", "Contact"];
   return (
-    <div className="py-5 border-b ">
+    <div className="py-5 border-b sticky top-0 z-50  ">
       <div className="flex items-center justify-between ">
         {/* logo */}
         <div>
